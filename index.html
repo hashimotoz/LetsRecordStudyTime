@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Let's Record Study Time</title>
+</head>
+<body>
+    <div class="main_wrapper">
+        <div class="main_inner">
+            <p>
+                あなたの頑張りを記録しましょう。
+            </p>
+                <div class="timer_wrapper">
+                    <div id="timer">00:00:00.000</div>
+                    <div class="btn_wrapper">
+                        <div  class="btn" id="start">START</div> 
+                        <div  class="btn" id="stop">STOP</div> 
+                        <div  class="btn" id="reset">RESET</div> 
+                        <div  class="btn" id="record">記録する</div>
+                    </div>
+                </div>
+                <div class="record_wrapper">
+                    <div class="record_title">
+                        <ul>
+                            <li>時間</li>
+                            <li>日付</li>
+                            <li>内容</li>
+                        </ul>
+                    </div>
+                    <div id = "record_lists">
+                        <div id="add_lists">
+                            <ul class = "record_contents_style">
+                                <li class= "li_1" id="record_result">00:00:00.000</li>
+                                <li class= "li_2"><input type="date"></li>
+                                <li class= "li_3"><input type="text" placeholder="がんばった内容を記載" stile:></li>
+                                <li class= "li_4" id="list_remove">×</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div> 
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
