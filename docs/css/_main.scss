@@ -8,7 +8,7 @@
 
 .main_inner{
     min-height: 85%;
-    width: 75%;
+    width: 80%;
     margin: 10px;
     padding: 10px 0 15px 0;
     background: linear-gradient(#ccc 1px, transparent 1px) #fdfdc0;
@@ -96,7 +96,8 @@ p{
 
     .li_1 {
         display: block;
-        width: 30%;
+        width: 20%;
+        font-size: 21px;
         } 
     .li_2 {
         display: block;
@@ -120,7 +121,6 @@ p{
         
     }
 
-    
     #list_remove{
         width: 5px;
         height: 5px;

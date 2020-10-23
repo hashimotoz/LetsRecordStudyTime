@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 html5doctor.com Reset Stylesheet
 v1.6.1
@@ -218,11 +219,16 @@ p {
 .record_contents_style .li_1 {
   display: block;
   width: 20%;
+  font-size: 21px;
 }
 
 .record_contents_style .li_2 {
   display: block;
   width: 20%;
+}
+
+.record_contents_style .li_2 input {
+  width: 100%;
 }
 
 .record_contents_style .li_3 {
@@ -251,5 +257,63 @@ p {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+}
+
+/* タブレットのスタイル */
+@media screen and (max-width: 959px) {
+  .main_inner {
+    min-height: 100%;
+    width: 100%;
+    padding-top: 50px;
+  }
+}
+
+/* スマホのスタイル */
+@media screen and (max-width: 559px) {
+  .main_inner {
+    min-height: 100%;
+    width: 100%;
+    line-height: 1.8em;
+  }
+  p {
+    font-size: 20px;
+    margin-top: 35px;
+  }
+  .timer_wrapper {
+    width: 85%;
+    font-size: 13px;
+  }
+  #timer {
+    font-size: 40px;
+  }
+  .btn {
+    width: 22%;
+  }
+  .record_contents_style {
+    display: inline-block;
+    margin-bottom: 17px;
+  }
+  .record_contents_style .li_1 {
+    width: 70%;
+    font-size: 18px;
+  }
+  .record_contents_style .li_2 {
+    display: block;
+    width: 95%;
+  }
+  .record_contents_style .li_2 input {
+    width: 100%;
+  }
+  .record_contents_style .li_3 {
+    display: block;
+    width: 95%;
+  }
+  .record_contents_style .li_3 input {
+    width: 100%;
+  }
+  .record_contents_style .li_4 {
+    display: block;
+    width: 10%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

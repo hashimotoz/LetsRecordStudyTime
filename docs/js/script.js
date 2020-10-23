@@ -98,7 +98,7 @@
     });   
     
     // ×ボタンの機能
-    $(document).on('click', '#list_remove', function(e){
+    $(document).on('click','#list_remove', function(e){
     console.log($(e.target.parentNode.parentNode));
     $(e.target.parentNode.parentNode).remove();
     });
